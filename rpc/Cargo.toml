@@ -17,6 +17,7 @@ jsonrpsee = { version = "0.16" }
 # async
 async-trait = "0.1"
 tokio = { version = "1.21.2", features = ["macros"] }
+futures = "0.3"
 
 # misc
 serde = { version = "1.0.147", features = ["derive"] }
